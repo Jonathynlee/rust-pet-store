@@ -1,0 +1,14 @@
+[package]
+name = "pet-store-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+inquire = "0.9.1"
+
+[dependencies.uuid]
+version = "1.19.0"
+# Lets you generate random UUIDs
+features = [
+    "v4",
+]
